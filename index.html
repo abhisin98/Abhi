@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/masters.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="js/index.js"></script>
+  <title>Abhi Sinha</title>
+</head>
+<body>
+  <div class="main-div">
+    <div class="head">
+      <h1>ABHI</h1>
+    </div>
+    <img class="main-img" src="images/ryan-gagnon-pV6BUQRWJ6w-unsplash.jpg" alt="" />
+    <div class="mySlides">
+      <h2 class="main-h">Hire Me</h2>
+      <p class="main-p">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <button type="submit">Hire Me</button>
+    </div>
+    <div class="mySlides mySlides2">
+      <h3>My Work</h3>
+      <div class="slide2-button">
+      <button class="w3-display-left" style="background-color: rgb(0,0,0, 0.3) ; width: 20%;" onclick="callSlide(-1)">&#10094;</button>
+      <button class="w3-display-right" style="background-color: rgb(0,0,0, 0.3) ; width: 20%;" onclick="callSlide(+1)">&#10095;</button>
+      </div>
+
+      <div class="myWorkSlides">
+        <img src="https://picsum.photos/640/360" alt="" style="width: 100%" />
+        <h3>Qui cumque Quis est fugiat nobis.</h3>
+        <p>Lorem ipsum dolor sit amet. Est vitae odio sed debitis cumque et culpa ipsa. Quo perspiciatis nemo tenetur velit ut molestias voluptas aut voluptatum placeat aut nulla dolor et doloremque dolores sit omnis velit.</p>
+      </div>
+      
+      <div class="myWorkSlides" style="display: none;">
+        <img src="http://placeimg.com/640/360/any" alt="" style="width: 100%" />
+        <h3>Est consequatur sunt in quibusdam atque!</h3>
+        <p>Lorem ipsum dolor sit amet. Aut dolor esse et debitis blanditiis est voluptatem sint ut aliquam quasi. Qui magni voluptatum qui expedita labore eum dolorem sint et doloribus voluptas id amet pariatur a nihil modi non laudantium recusandae.</p>
+      </div>
+      
+      <div class="myWorkSlides" style="display: none;">
+        <img src="https://placebeard.it/640x360" alt="" style="width: 100%" />
+        <h3>Aut veritatis provident eum excepturi provident.</h3>
+        <p>Lorem ipsum dolor sit amet. Ad nemo odit et enim rerum cum impedit ullam sed quis maiores! Sed consequatur obcaecati 33 dicta asperiores in numquam nemo est dolorem natus ut corporis tempora aut culpa quis sit numquam praesentium.</p>
+      </div>
+
+    </div>
+
+    <div class="mySlides mySlides3">
+      <form action="" method="get" accept-charset="utf-8">
+        <h3>Contact Me</h3>
+        <input type="text" placeholder="Email" style="width: 100%; margin-top: 6px;" />
+        <input type="text" placeholder="Name" style="width: 100%; margin-top: 6px;" />
+        <textarea name="" id=rows="8" cols="40" placeholder="Massage"style="width: 100%; margin-top: 6px; "></textarea>
+        <button type="submit">Send</button>
+      </form>
+
+    </div>
+    <!--- Slide --->
+
+    <div class="slide">
+      <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">
+          &#10094;
+        </div>
+        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">
+          &#10095;
+        </div>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
